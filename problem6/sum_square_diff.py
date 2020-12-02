@@ -7,11 +7,11 @@
 #Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 
 def main():
-        #make an integer and list variable for both the sum of squares(sumSquares) and square of sums(squareSum)
+        #make an integer and list variable for both the sum of squares(sumSquares) and square of sums(squaredSum)
         sumSquares=0
         sumSquaresList=[]
-        squareSum=0
-        squareSumList=[]
+        squaredSum=0
+        squaredSumList=[]
 
         #for each number up to 100 do 3 things
                 #1 square the number

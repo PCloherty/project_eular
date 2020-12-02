@@ -33,10 +33,13 @@ def main():
             reverse="".join(reverse)
             #compare normal and reverse, if they are the same 
             if(int(normal) == int(reverse)):
-                highest['x_value']=x
-                highest['y_value']=y
-                highest['palindrome']=int(normal)
+                if (normal > highest['palindrome']):
+                    highest['x_value']=x
+                    highest['y_value']=y
+                    highest['palindrome']=int(normal)
+                print(highest)
         #break outerloop
+        #906609    
         break
     print(f'Highest palindrome from two 3-digit numbers is {highest["palindrome"]} from {highest["x_value"]}*{highest["y_value"]}' )
     
